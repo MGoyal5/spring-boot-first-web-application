@@ -15,29 +15,22 @@ import com.springboot.web.springbootfirstwebapplication.employeeProject.dto.Empl
 import com.springboot.web.springbootfirstwebapplication.employeeProject.service.EmployeeSerivce;
 //import com.springboot.web.springbootfirstwebapplication.studentProject.service.StudentService;
 
-@RestController
+//@RestController
 public class EmployeeController {
-
-	@Autowired
-	EmployeeSerivce empService;
-	
-	@GetMapping("/getAllEmployee")
-	public ResponseEntity<List<EmployeeDTO>> getAllEmployee()
-	{
-		List<EmployeeDTO> empDTOList = empService.getAllEmployee();
-		return new ResponseEntity<List<EmployeeDTO>>(empDTOList, HttpStatus.OK);
-	}
-	
-	@GetMapping("/getEmployeeById")
-	public ResponseEntity<EmployeeDTO> getEmployeeById(@RequestParam long id)
-	{
-		return null;
-	}
-	
-	@PostMapping("/addEmployee")
-	public ResponseEntity<String> addEmployee(@RequestBody EmployeeDTO employeeDto)
-	{
-		empService.addEmployee(employeeDto);
-		return new ResponseEntity<String>("Employee details is added ", HttpStatus.OK);
-	}
-}
+	/*
+	 * 
+	 * @Autowired EmployeeSerivce empService;
+	 * 
+	 * @GetMapping("/getAllEmployee") public ResponseEntity<List<EmployeeDTO>>
+	 * getAllEmployee() { List<EmployeeDTO> empDTOList =
+	 * empService.getAllEmployee(); return new
+	 * ResponseEntity<List<EmployeeDTO>>(empDTOList, HttpStatus.OK); }
+	 * 
+	 * @GetMapping("/getEmployeeById") public ResponseEntity<EmployeeDTO>
+	 * getEmployeeById(@RequestParam long id) { return null; }
+	 * 
+	 * @PostMapping("/addEmployee") public ResponseEntity<String>
+	 * addEmployee(@RequestBody EmployeeDTO employeeDto) {
+	 * empService.addEmployee(employeeDto); return new
+	 * ResponseEntity<String>("Employee details is added ", HttpStatus.OK); }
+	 */}

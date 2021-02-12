@@ -15,8 +15,11 @@ import javax.persistence.NamedQuery;
  * The persistent class for the STUDENT database table.
  * 
  */
-@Entity
-@NamedQuery(name="Student.findAll", query="SELECT s FROM Student s")
+
+  @Entity
+  
+  @NamedQuery(name="Student.findAll", query="SELECT s FROM Student s")
+ 
 public class Student implements Serializable {
 	private static final long serialVersionUID = 1L;
 

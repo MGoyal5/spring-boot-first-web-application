@@ -11,8 +11,9 @@ import com.springboot.web.springbootfirstwebapplication.employeeProject.entity.E
 import com.springboot.web.springbootfirstwebapplication.employeeProject.repository.EmployeeRepository;
 import com.springboot.web.springbootfirstwebapplication.employeeProject.service.EmployeeSerivce;
 
-@Component
-public class EmployeeServiceImpl implements EmployeeSerivce {
+//@Component
+public class EmployeeServiceImpl {}
+/*implements EmployeeSerivce {
 
 	@Autowired
 	EmployeeRepository empRepository;
@@ -42,3 +43,4 @@ public class EmployeeServiceImpl implements EmployeeSerivce {
 	}
 
 }
+*/

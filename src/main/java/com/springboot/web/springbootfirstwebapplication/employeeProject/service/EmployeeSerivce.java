@@ -7,15 +7,16 @@ import org.springframework.stereotype.Service;
 import com.springboot.web.springbootfirstwebapplication.employeeProject.dto.EmployeeDTO;
 
 
-@Service
+//@Service
 public interface EmployeeSerivce {
 
-public void addEmployee(EmployeeDTO employeeDto);
-	
-	
-	  public List<EmployeeDTO> getAllEmployee();
-	  
-	  public EmployeeDTO getEmployeeById(long id);
+	/*
+	 * public void addEmployee(EmployeeDTO employeeDto);
+	 * 
+	 * public List<EmployeeDTO> getAllEmployee();
+	 * 
+	 * public EmployeeDTO getEmployeeById(long id);
+	 */
 	  
 	/* 
 	 * public List<Student> getStudentByName();

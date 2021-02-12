@@ -15,10 +15,10 @@ import com.springboot.web.springbootfirstwebapplication.studentProject.dto.Stude
  * @author mangl
  *
  */
-@Service
+//@Service
 public interface StudentService {
 	
-	public void addStudent(List<StudentDTO> students, StudentDTO studentdto);
+//	public void addStudent(List<StudentDTO> students, StudentDTO studentdto);
 	
 	/*
 	 * public List<Student> getAllStudent();

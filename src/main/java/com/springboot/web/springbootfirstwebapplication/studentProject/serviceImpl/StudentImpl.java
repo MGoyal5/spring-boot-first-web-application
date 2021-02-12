@@ -14,13 +14,13 @@ import com.springboot.web.springbootfirstwebapplication.studentProject.entity.St
 import com.springboot.web.springbootfirstwebapplication.studentProject.repository.StudentRepository;
 import com.springboot.web.springbootfirstwebapplication.studentProject.service.StudentService;
 
-
 /**
  * @author mangl
  *
  */
-@Component
-public class StudentImpl implements StudentService {
+//@Component
+public class StudentImpl {}
+/*implements StudentService {
 
 	@Autowired
 	StudentRepository studentRepository;
@@ -38,7 +38,7 @@ public class StudentImpl implements StudentService {
 		System.out.println(studentdto.getName() + " saved successfully");
 	}
 
-	/*
+	
 	 * @Override public List<StudentDTO> getAllStudent() { // TODO Auto-generated
 	 * method stub return null; }
 	 * 
@@ -52,6 +52,7 @@ public class StudentImpl implements StudentService {
 	 * 
 	 * @Override public List<StudentDTO> getStudentByAge() { // TODO Auto-generated
 	 * method stub return null; }
-	 */
+	 
 
 }
+*/
